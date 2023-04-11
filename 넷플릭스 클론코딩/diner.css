@@ -21,10 +21,30 @@ body{
     left: 0;
 }
 
+
 .main-content{
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1024px;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
 }
 
 .netflix-logo{
@@ -33,6 +53,12 @@ body{
 
 .font{
     color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-
+.Emailbtn{
+    display: flex;
+    justify-content: center;
+}
