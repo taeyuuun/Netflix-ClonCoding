@@ -1,0 +1,63 @@
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.hero-caption h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-caption p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hero-caption form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hero-caption input[type="email"] {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.hero-caption button[type="submit"] {
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-caption button[type="submit"]:hover {
+  background-color: #d60d12;
+}
+
