@@ -62,3 +62,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.font-size-h{
+    font-size: 200%;
+}
